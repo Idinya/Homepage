@@ -9,7 +9,7 @@
     <meta name="descrip  --><!--  --><!-- --> --> --<!-- > --<!-- >tio<!-- n" c<!-- ontent="">
     <meta name="author" content="">
 
-    <title>Stylish Portfolio - IBS HÜ</title>
+    <title>Homepage - IBS HÜ</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -38,9 +38,6 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top">Start Bootstrap</a>
-            </li>
-            <li>
                 <a href="#top">Home</a>
             </li>
             <li>
@@ -60,8 +57,8 @@
         <div class="text-vertical-center">
             <h1>Internetbasierte Systeme</h1>
             <h3>Hausübung I</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <br />
+            <a href="#services" class="btn btn-dark btn-lg">Los gehts!</a>
         </div>
     </header>
 
@@ -84,7 +81,7 @@
                                     <strong>Repo Nr. 1</strong>
                                 </h4>
                                 <p>Das Git-Repository meines Teampartners Markus P.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#" class="btn btn-light" target="_blank">Zu Markus' Repo</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -97,7 +94,7 @@
                                     <strong>Repo Nr. 2</strong>
                                 </h4>
                                 <p>Mein Git-Repository.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#" class="btn btn-light" target="_blank">Zu meinem Repo</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -109,8 +106,8 @@
                                 <h4>
                                     <strong>Formular</strong>
                                 </h4>
-                                <p>Das WAI-AAA konforme Formular.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>Das WAI-AAA konforme Formular:</p>
+                                <a href="#about" class="btn btn-light">Zum Formular</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -123,7 +120,7 @@
                                     <strong>Codeacademy</strong>
                                 </h4>
                                 <p>Die Batches des HTML/CSS-Online-Kurses:</p>
-                                <a href="http://www.codecademy.com/users/Acridian/achievements" class="btn btn-light">Learn More</a>
+                                <a href="http://www.codecademy.com/users/Acridian/achievements" class="btn btn-light" target="_blank">Zum Codeacademy-Profil</a>
                             </div>
                         </div>
                     </div>
@@ -137,78 +134,36 @@
     </section>
     
     
-        <!-- About -->
+    <!-- About -->
     <section id="about" class="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Formular</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                    <p class="lead">Dies ist ein barrierefreies Such-Formular nach WACG. Damit ist Artikel- und Volltextsuche im deutschen Wikipedia möglich.</p>
+                    <br /><br />
+                    <hr class="small">
+                    <br /><br />
+                    <a href="http://de.wikipedia.org" target="_blank">
+                    <img src="http://upload.wikimedia.org/wikipedia/commons/0/0b/Wikipedia_240x60.png"
+                        border="0" alt="wikipedia - die freie enzyklopädie" align="middle" width="240" height="60" /></a> 
+                    <br /><br />
+                    <form name="search" method="post" 
+                        action="http://de.wikipedia.org/wiki/Spezial:Suche" target="_blank">
+                        <div align="center">
+                            <input type="text" name="search" size="30" />
+                            <br />
+                            <input class="lead" type="submit" name="go" value="Artikel" />
+                            <input class="lead" type="submit" name="fulltext" value="Suche" />
+                        </div>
+                    </form>
+                    <br /><br /><br /><br /><br /><br /><br /><br />
                 </div>
             </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
     </section>
-
-    <!-- Callout -->
-    <!--
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
-        </div>
-    </aside>
-    -->
-
-    <!-- Portfolio -->
-    <!--
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested)
-                    <a href="#" class="btn btn-dark">View More Items</a>
-                </div>
-                <!-- /.col-lg-10 
-            </div>
-            <!-- /.row 
-        </div>
-        <!-- /.container 
-    </section>
-    -->
-
 
     <!-- Call to Action -->
     <section id="contact">
@@ -222,29 +177,17 @@
         </div>
     </aside>
 
-    <!-- Map -->
-    <!-- <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-        </iframe>
-    </section> -->
-
     <!-- Footer -->
     <footer>
-        
-            <div class="container">
-                
-                    <div class="col-lg-10 col-lg-offset-1 text-center">
-                        <h4><strong>Ellen Marhold</strong>
-                        </h4>
-                        <ul class="list-unstyled">
-                            <!--<li><i class="fa fa-phone fa-fw"></i> (0641) 412-6745</li> -->
-                            <li><i class="fa fa-envelope-o fa-fw"></i> ellen.marhold(at)mni.thm.de</a></li>
-                        </ul>
-                        <br>
+        <div class="container">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h4><strong>Ellen Marhold</strong></h4>
+                <ul class="list-unstyled">
+                    <!--<li><i class="fa fa-phone fa-fw"></i> (0641) 412-6745</li> -->
+                    <li><i class="fa fa-envelope-o fa-fw"></i> ellen.marhold(at)mni.thm.de</a></li>
+                </ul>
+                <hr class="small">
+                <br />
                         <!-- <ul class="list-inline">
                             <li>
                                 <i class="fa fa-facebook fa-fw fa-3x"></i>
@@ -257,22 +200,22 @@
                             </li>
                         </ul>  -->
                         
-                        <p><strong>Datenschutzerklärung</strong></p><p><strong>Geltungsbereich</strong></p><p>Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den verantwortlichen Anbieter [HIER BITTE IHREN NAMEN, ADRESSE, EMAIL UND TELEFONNUMMER EINTRAGEN] auf dieser Website (im folgenden “Angebot”) auf.<br />
-                        <br>
-                        Die rechtlichen Grundlagen des Datenschutzes finden sich im Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG).<br />
-                        <br>
-                        </p><p><strong>Zugriffsdaten/ Server-Logfiles</strong></p><p><span class="sd-muster-content">Der Anbieter (beziehungsweise sein Webspace-Provider) erhebt Daten über jeden Zugriff auf das Angebot (so genannte Serverlogfiles). Zu den Zugriffsdaten gehören:<br />
-                        <br>
-                        Name der abgerufenen Webseite, Datei, Datum und Uhrzeit des Abrufs, übertragene Datenmenge, Meldung über erfolgreichen Abruf, Browsertyp nebst Version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte Seite), IP-Adresse und der anfragende Provider.<br />
-                        <br>
-                        Der Anbieter verwendet die Protokolldaten nur für statistische Auswertungen zum Zweck des Betriebs, der Sicherheit und der Optimierung des Angebotes. Der Anbieterbehält sich jedoch vor, die Protokolldaten nachträglich zu überprüfen, wenn aufgrund konkreter Anhaltspunkte der berechtigte Verdacht einer rechtswidrigen Nutzung besteht.</span></p><p><strong>Einbindung von Diensten und Inhalten Dritter</strong></p><p><span class="sd-muster-content">Es kann vorkommen, dass innerhalb dieses Onlineangebotes Inhalte Dritter, wie zum Beispiel Videos von YouTube, Kartenmaterial von Google-Maps, RSS-Feeds oder Grafiken von anderen Webseiten eingebunden werden. Dies setzt immer voraus, dass die Anbieter dieser Inhalte (nachfolgend bezeichnet als "Dritt-Anbieter") die IP-Adresse der Nutzer wahr nehmen. Denn ohne die IP-Adresse, könnten sie die Inhalte nicht an den Browser des jeweiligen Nutzers senden. Die IP-Adresse ist damit für die Darstellung dieser Inhalte erforderlich. Wir bemühen uns nur solche Inhalte zu verwenden, deren jeweilige Anbieter die IP-Adresse lediglich zur Auslieferung der Inhalte verwenden. Jedoch  haben wir keinen Einfluss darauf, falls die Dritt-Anbieter die IP-Adresse z.B. für statistische Zwecke speichern. Soweit dies uns bekannt ist, klären wir die Nutzer darüber auf.<br />
-                        </span></p><p><strong>Widerruf, Änderungen, Berichtigungen und Aktualisierungen</strong></p><p>Der Nutzer hat das Recht, auf Antrag unentgeltlich Auskunft zu erhalten über die personenbezogenen Daten, die über ihn gespeichert wurden. Zusätzlich hat der Nutzer das Recht auf Berichtigung unrichtiger Daten, Sperrung und Löschung seiner personenbezogenen Daten, soweit dem keine gesetzliche Aufbewahrungspflicht entgegensteht.<br />
-                        </p><p><a href="http://rechtsanwalt-schwenke.de/smmr-buch/datenschutz-muster-generator-fuer-webseiten-blogs-und-social-media/" onclick="_gaq.push(['_trackEvent', 'outbound-article-int', 'http://rechtsanwalt-schwenke.de/smmr-buch/datenschutz-muster-generator-fuer-webseiten-blogs-und-social-media/', 'Datenschutz-Muster von Rechtsanwalt Thomas Schwenke - I LAW it']);" ><strong>Datenschutz-Muster von Rechtsanwalt Thomas Schwenke - I LAW it</strong></a></p>
+                <p><strong>Datenschutzerklärung</strong></p><p><strong>Geltungsbereich</strong></p><p>Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den verantwortlichen Anbieter Ellen Marhold auf dieser Website (im folgenden “Angebot”) auf.<br />
+                <br />
+                Die rechtlichen Grundlagen des Datenschutzes finden sich im Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG).<br />
+                <br /></p>
+                <p><strong>Zugriffsdaten/ Server-Logfiles</strong></p><p><span class="sd-muster-content">Der Anbieter (beziehungsweise sein Webspace-Provider) erhebt Daten über jeden Zugriff auf das Angebot (so genannte Serverlogfiles). Zu den Zugriffsdaten gehören:<br />
+                <br />
+                Name der abgerufenen Webseite, Datei, Datum und Uhrzeit des Abrufs, übertragene Datenmenge, Meldung über erfolgreichen Abruf, Browsertyp nebst Version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte Seite), IP-Adresse und der anfragende Provider.<br />
+                <br />
+                Der Anbieter verwendet die Protokolldaten nur für statistische Auswertungen zum Zweck des Betriebs, der Sicherheit und der Optimierung des Angebotes. Der Anbieterbehält sich jedoch vor, die Protokolldaten nachträglich zu überprüfen, wenn aufgrund konkreter Anhaltspunkte der berechtigte Verdacht einer rechtswidrigen Nutzung besteht.</span></p><p><strong>Einbindung von Diensten und Inhalten Dritter</strong></p><p><span class="sd-muster-content">Es kann vorkommen, dass innerhalb dieses Onlineangebotes Inhalte Dritter, wie zum Beispiel Videos von YouTube, Kartenmaterial von Google-Maps, RSS-Feeds oder Grafiken von anderen Webseiten eingebunden werden. Dies setzt immer voraus, dass die Anbieter dieser Inhalte (nachfolgend bezeichnet als "Dritt-Anbieter") die IP-Adresse der Nutzer wahr nehmen. Denn ohne die IP-Adresse, könnten sie die Inhalte nicht an den Browser des jeweiligen Nutzers senden. Die IP-Adresse ist damit für die Darstellung dieser Inhalte erforderlich. Wir bemühen uns nur solche Inhalte zu verwenden, deren jeweilige Anbieter die IP-Adresse lediglich zur Auslieferung der Inhalte verwenden. Jedoch  haben wir keinen Einfluss darauf, falls die Dritt-Anbieter die IP-Adresse z.B. für statistische Zwecke speichern. Soweit dies uns bekannt ist, klären wir die Nutzer darüber auf.<br />
+                </span></p><p><strong>Widerruf, Änderungen, Berichtigungen und Aktualisierungen</strong></p><p>Der Nutzer hat das Recht, auf Antrag unentgeltlich Auskunft zu erhalten über die personenbezogenen Daten, die über ihn gespeichert wurden. Zusätzlich hat der Nutzer das Recht auf Berichtigung unrichtiger Daten, Sperrung und Löschung seiner personenbezogenen Daten, soweit dem keine gesetzliche Aufbewahrungspflicht entgegensteht.<br />
+                </p><p><a href="http://rechtsanwalt-schwenke.de/smmr-buch/datenschutz-muster-generator-fuer-webseiten-blogs-und-social-media/" onclick="_gaq.push(['_trackEvent', 'outbound-article-int', 'http://rechtsanwalt-schwenke.de/smmr-buch/datenschutz-muster-generator-fuer-webseiten-blogs-und-social-media/', 'Datenschutz-Muster von Rechtsanwalt Thomas Schwenke - I LAW it']);" ><strong>Datenschutz-Muster von Rechtsanwalt Thomas Schwenke - I LAW it</strong></a></p>
                         
-                        <hr class="small">
-                        <p class="text-muted">Copyright &copy; Ellen Marhold 2014</p>
-                    </div>
-               
+                <hr class="small">
+                <p class="text-muted">Copyright &copy; Ellen Marhold 2014</p>
+            </div>
+
             </div>
         </section> 
     </footer>
